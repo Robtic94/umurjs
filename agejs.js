@@ -25,7 +25,7 @@ $(document).ready(function(){
             $("#exact_age").text("Format Yang Benar Ex: 30/05/1994 - Coba Lagi");
         }
         else {
-            $("#exact_age").html("Umur Kamu:<br/><div id=\"age\"><span>" + year_age + "</span> Tahun <span>" + month_age + "</span> Bulan <span>" + day_age + "</span> Hari </div> ");
+            $("#exact_age").html("Usia Kamu:<br/><div id=\"age\"><span>" + year_age + "</span> Tahun <span>" + month_age + "</span> Bulan <span>" + day_age + "</span> Hari </div> ");
         }
     });
 });
